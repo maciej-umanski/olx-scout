@@ -1,0 +1,11 @@
+#!/bin/bash
+
+NAME=$1
+
+cd "$(dirname "$0")"
+
+set -a
+source .env
+set +a
+
+./scout
